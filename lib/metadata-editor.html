@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metadata Editor para V-Slice</title>
+    <link rel="stylesheet" href="scripts/style.css">
+</head>
+<body>
+    <h1>Editor de Metadata para FNF 0.8.3</h1>
+    <p>Versão da Metadata:</p>
+    <input type="text" id="version" value="1.0.0">
+    <p>Nome da música:</p>
+    <input type="text" id="songName" placeholder="Ex.: Blazin">
+    <p>Artista:</p>
+    <input type="text" id="artist" placeholder="Ex.: Kawai Sprite">
+    <p>Charter (Criador das posições das Setas):</p>
+    <input type="text" id="charter" placeholder="Ex.: Você">
+    <p></p>
+    <p><strong>Variações da música:</strong></p>
+    <select id="songVariations">
+        <option value="">Nenhuma</option>
+        <option value="erect">Erect</option>
+        <option value="pico">Pico</option>
+        <option value="bf">BF</option>
+    </select>
+    <p><strong>Dificuldades:</strong></p>
+    <select id="difficulties">
+        <option value="easy">Somente Easy</option>
+        <option value="normal">Somente Normal</option>
+        <option value="hard">Somente Hard</option>
+        <option value="easyNnormal">Easy e Normal</option>
+        <option value="normalNhard">Normal e Hard</option>
+        <option value="easyNnormalNhard">Easy, Normal e Hard</option>
+    </select><br><br><br>
+    <h2>Player:</h2>
+        <select id="player">
+        <option value="bfPlay">Boyfriend</option>
+        <option value="dadPlay">Daddy Dearest</option>
+        <option value="darnellPlay">Darnell</option>
+        <option value="momPlay">Mommy Mearest</option>
+        <option value="parents-xmasPlay">Parents Christmas</option>
+        <option value="picoNotPlay">Pico</option>
+        <option value="pico-player">Pico Playable</option>
+        <option value="senpaiPlay">Senpai</option>
+        <option value="spookyPlay">Spooky Kids</option>
+        <option value="tankmanPlay">Tankman</option>
+    </select>
+    <h2>Girlfriend:</h2>
+    <select id="girlfriend">
+        <option value="gf">Girlfriend</option>
+        <option value="nene">Nene</option>
+    </select>
+    <h2>Inimigo:</h2>
+        <select id="opponent">
+        <option value="dad">Daddy Dearest</option>
+        <option value="bf">Boyfriend</option>
+        <option value="darnell">Darnell</option>
+        <option value="mom">Mommy Mearest</option>
+        <option value="parents-xmas">Parents Christmas</option>
+        <option value="pico">Pico</option>
+        <option value="pico-player">Pico Playable</option>
+        <option value="senpai">Senpai</option>
+        <option value="spooky">Spooky Kids</option>
+        <option value="tankman">Tankman</option>
+    </select><br><br>
+    <p>Instrumental alternativo (se o principal não funcionar):</p>
+    <select id="altInstrumentals">        
+        <option value="noneAltInst">Nenhum</option>
+        <option value="picoAltInst">Pico</option>
+    </select>
+    <p><strong>Vocais do inimigo (coloque o nome do JSON na caixa abaixo):</strong></p>
+    <input type="text" id="opponentVocals">
+    <p><strong>Vocais do player (coloque o nome do JSON na caixa abaixo):</strong></p>
+    <input type="text" id="playerVocals"><br><br>
+    <h2>Stage:</h2>
+    <select id="stage">
+        <option value="limoRide">Limo Ride</option>
+        <option value="limoRideErect">Limo Ride [Erect]</option>
+        <option value="mainStage">Main Stage</option>
+        <option value="mainStageErect">Main Stage [Erect]</option>
+        <option value="mallEvil">Christmas Mall (Naughty)</option>
+        <option value="mallXmas">Christmas Mall (Nice)</option>
+        <option value="mallXmasErect">Christmas Mall (Nice) [Erect]</option>
+        <option value="phillyBlazin">Philly (Blazin')</option>
+        <option value="phillyStreets">Philly (Streets)</option>
+        <option value="phillyStreetsErect">Philly (Streets) [Erect]</option>
+        <option value="phillyTrain">Philly (Train)</option>
+        <option value="phillyTrainErect">Philly (Train) [Erect]</option>
+        <option value="school">School (Date)</option>
+        <option value="schoolErect">School (Date) [Erect]</option>
+        <option value="schoolEvil">School (Hate)</option>
+        <option value="schoolEvilErect">School (Hate) [Erect]</option>
+        <option value="spookyMansion">Spooky Mansion</option>
+        <option value="spookyMansionErect">Spooky Mansion [Erect]</option>
+        <option value="tankmanBattlefield">Tankman Battlefield</option>
+        <option value="tankmanBattlefieldErect">Tankman Battlefield [Erect]</option>
+    </select>
+    <p>Note Style</p>
+    <select id="noteStyle">
+        <option value="funkin">Funkin'</option> 
+        <option value="pixel">Pixel</option>
+    </select>
+    <p>Ratings (se você não tiver selecionado uma Dificuldade, deixa em branco):</p>
+    <input type="number" id="easyRating" placeholder="Easy aqui">
+    <input type="number" id="normalRating" placeholder="Normal aqui">
+    <input type="number" id="hardRating" placeholder="Hard aqui">
+    <br><br><br><img src="scripts/images/print-1.png" alt="Print para a explicação do Hating"><p>O vermelho ⭕ é o Rating.</p><br><br>
+    <h2>Álbum:</h2>
+    <input type="text" id="album" placeholder="Volume 1">
+    <p>BPM:</p>
+    <input type="number" id="bpm" value="120">
+    <p>Tempo inicial (ms):</p>
+    <input type="number" id="tempo" value="0">
+    <p>Beat inicial:</p>
+    <input type="number" id="beat" value="0">
+    <p>Assinatura (bt):</p>
+    <input type="text" id="bt" value="4, 4, 4, 4">
+    <br><br>
+    <button onclick="baixar()">Baixar arquivo</button>
+    <audio src="sounds/ClickDown.ogg" id="clickSound"></audio>
+    <script src="scripts/script-metadataeditor.js"></script>
+</body>
+</html>
