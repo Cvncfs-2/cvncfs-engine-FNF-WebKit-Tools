@@ -1,0 +1,5 @@
+Chart Editor
+Character Editor
+Week Editor ✅
+Metadata Editor
+Stage Editor
