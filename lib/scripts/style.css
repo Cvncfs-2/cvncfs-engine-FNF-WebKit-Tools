@@ -1,0 +1,16 @@
+body {
+    font: 12pt Arial;
+    cursor: url("images/cursor-default.png"), auto;
+}
+input {
+    width: 250px; height: 20px; font-family: Helvetica, Arial, system-ui; font-size: 12pt; border-radius: 15px; padding: 5px;
+    cursor: url("images/cursor-text.png"), text;
+}
+select {
+    height: 40px; font-family: Helvetica, Arial, system-ui; font-size: 14pt; border-radius: 15px; padding: 5px;
+    cursor: url("images/cursor-crosshair.png "), auto;
+}
+button {
+    font-size: 12pt; padding: 20px;
+    cursor: url("images/cursor-pointer.png"), pointer;
+}
