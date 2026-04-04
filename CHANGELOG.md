@@ -6,6 +6,17 @@ O formato segue as orientações do "Keep a Changelog",
 
 e este projeto segue as regras do Semantic Versioning.
 
+Observação: o início desse SITE foi feito antes da criação desse Repositório, então a v1.0.0 e a 1.0.1 são UPLOADS da versão original.
+
+## \[v1.0.1] - 31-03-2026
+
+### Adicionado
+
+* Novas fontes aos Editores. ([6a9c52c](https://github.com/Cvncfs-2/cvncfs-engine-FNF-WebKit-Tools/commit/6a9c52c26c992470d3e02b5080caedb0db82b8ec))
+* Nova UI com JavaScript no Editor de Metadata.
+* Instalador para WINDOWS feito com [ElectronJS](https://ww.electronjs.org).
+
+
 ## 26-03-2026
 
 ### Adicionado
@@ -19,13 +30,11 @@ e este projeto segue as regras do Semantic Versioning.
 ### Adicionado
 
 * Criação do repositório.
-* Confirmação inicial. ([113679e](https://github.com/Cvncfs-2/cvncfs-engine-FNF-WebKit-Tools/commit/113679e598d3f211cb5abfd1a50ac70da275106f))
-* Adicionar arquivos ("index.html" e "lista.txt") por meio de upload ([442f4e7](https://github.com/Cvncfs-2/cvncfs-engine-FNF-WebKit-Tools/commit/442f4e75eeccb3b03aaddca8690ae678b6945254))
-* Criado o arquivo metadata-editor.html para entrada de metadados da música. ([f899031](https://github.com/Cvncfs-2/cvncfs-engine-FNF-WebKit-Tools/commit/f8990319ea85ed0aab03e98bf947f9d179c93237))
-* Adicionar arquivos ("lib/week-editor.html") por meio de upload. ([06366ea](https://github.com/Cvncfs-2/cvncfs-engine-FNF-WebKit-Tools/commit/06366ea2ef50b54fa883df2c412917f00bb8518f))
-* Adicionado o arquivo README inicial com a descrição do projeto. ([08f8c35](https://github.com/Cvncfs-2/cvncfs-engine-FNF-WebKit-Tools/commit/08f8c35473edcc2bec5a80dbe7935d180bad0418))
-
-
+* Confirmação inicial. ([113679e]
+* Adicionar arquivos ("index.html" e "lista.txt") por meio de upload.
+* Criado o arquivo metadata-editor.html para entrada de metadados da música.
+* Adicionar arquivos ("lib/week-editor.html") por meio de upload.
+* Adicionado o arquivo README inicial com a descrição do projeto.
 
 ## \[Beta 2] - 24-03-2026
 
