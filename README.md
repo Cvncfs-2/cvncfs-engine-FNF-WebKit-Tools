@@ -1,6 +1,6 @@
 # Cvncfs Engine
 
-Esse site/app tem como objetivo ser uma Engine de [Friday Night Funkin](https://ninja-muffin24.itch.io/funkin)' que roda em todos os dispositivos possíveis, desde:
+Esse site/app tem como objetivo ser uma Engine de [Friday Night Funkin](https://ninja-muffin24.itch.io/funkin)' baseada em V-Slice que roda em todos os dispositivos possíveis, desde:
 
 * Celular
 * Tablet
