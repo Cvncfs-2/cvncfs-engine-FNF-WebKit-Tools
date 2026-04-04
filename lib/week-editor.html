@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week Editor para V-Slice</title>
+    <link rel="icon" href="scripts/images/icon.png">
+    <link rel="stylesheet" href="scripts/style.css">
+</head>
+<body>
+    <img src="scripts/images/week-editor-image.svg" alt="Imagem SVG do Week" class="image-Week-SVG">
+    <img src="scripts/images/version.png" alt="Imagem da versão" class="image-version">
+    <div class="AlertMobile">
+        <h1>Se essa mensagem está aparecendo, baixe a versão pra computador em:</h1>
+        <a href="https://github.com/Cvncfs-2/Cvncfs-Engine-Funkin-WebKit-Tools/releases">Releases no GitHub</a>
+    </div>
+    <p>Nome do arquivo:</p>
+    <input type="text" id="nomeArquivo" placeholder="Nome do arquivo">
+    <p>Versão da Week:</p>
+    <select id="versao">
+        <option value="1.0.0">1.0.0 (compatível)</option>
+    </select>
+    <p>Descrição da Week:</p>
+    <input type="text" id="descricaoWeek" placeholder="Nome da Week">
+    <p>Músicas:</p>
+    <input type="text" id="musicasWeek" placeholder="Separe-as com vírgula">
+    <p>Local da imagem do título:</p>
+    <input type="text" id="titleAsset" value="storymenu/titles/week1">
+    <br><br><br><br>
+    <p><strong>Inimigo:</strong></p>
+    <select id="inimigoProp">
+        <option value="dad">Daddy Dearest</option>
+        <option value="bf">Boyfriend</option>
+        <option value="darnell">Darnell</option>
+        <option value="mom">Mommy Mearest</option>
+        <option value="parents-xmas">Parents Christmas</option>
+        <option value="pico">Pico</option>
+        <option value="pico-player">Pico Playable</option>
+        <option value="senpai">Senpai</option>
+        <option value="spooky">Spooky Kids</option>
+        <option value="tankman">Tankman</option>
+    </select>
+    <p>Escala do inimigo:</p><p id="pScaleInimigo">Tamanho: <strong>0</strong></p>
+    <input type="range" min="0" max="5" step="0.5" id="escalaInimigo">
+    <p>Offsets do inimigo:</p>
+    <p>X:</p><input type="number" id="inimigoXOffset" value="100">
+    <p>Y:</p><input type="number" id="inimigoYOffset" value="60">
+    <p>Animações:</p><input type="text" id="paradoInimigo" value="idle">
+    <p>Framerate:</p><input type="number" id="fpsInimigo" value="24">
+    <p>Prefixo das animações:</p><input type="text" id="paradoInimigoPrefixo" value="idle0">
+    <p><strong>Player:</strong></p>
+    <select id="playerProp">
+        <option value="bf">Boyfriend</option>
+        <option value="dad">Daddy Dearest</option>
+        <option value="darnell">Darnell</option>
+        <option value="mom">Mommy Mearest</option>
+        <option value="parents-xmas">Parents Christmas</option>
+        <option value="pico">Pico</option>
+        <option value="pico-player">Pico Playable</option>
+        <option value="senpai">Senpai</option>
+        <option value="spooky">Spooky Kids</option>
+        <option value="tankman">Tankman</option>
+    </select><br><br>
+    <p>Escala do player:</p><p id="pScalePlayer">Tamanho: <strong>0</strong></p>
+    <input type="range" min="0" max="5" step="0.5" id="escalaPlayer">
+    <p>Offsets do player:</p>
+    <p>X:</p><input type="number" id="playerXOffset" value="150">
+    <p>Y:</p><input type="number" id="playerYOffset" value="80">
+    <p>Animações:</p><input type="text" id="paradoPlayer" value="idle"><input type="text" id="selecionadoPlayer" value="confirm">
+    <p>Framerate:</p><input type="number" id="fpsBF" value="24">
+    <p>Prefixo das animações:</p><input type="text" id="paradoPlayerPrefixo" value="idle0"><input type="text" id="selecionadoPlayerPrefixo" value="confirm0"><br><br>
+    <p><strong>Girlfriend:</strong></p>
+    <select id="gfProp">
+        <option value="gf">Girlfriend</option>
+        <option value="nene">Nene</option>
+    </select>
+    <p>Escala da Girlfriend:</p><p id="pScaleGF">Tamanho: <strong>0</strong></p>
+    <input type="range" min="0" max="5" step="0.5" id="escalaGf">
+    <p>Offsets da Girlfriend:</p>
+    <p>X:</p><input type="number" id="gfXOffset" value="200">
+    <p>Y:</p><input type="number" id="gfYOffset" value="80">
+    <p>Animações:</p><input type="text" id="animacaoEsquerdaGF" value="danceLeft"><input type="text" id="animacaoDireitaGF" value="danceRight">
+    <p><strong>Indíce de frames:</strong></p><p>Balançando a cabeça pra esquerda</p><input type="text" id="frameIndiceLeft" value="30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"><br><p>Balançando a cabeça pra direita:</p><input type="text" id="frameIndiceRight" value="15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29">
+    <p>Prefixo das animações:</p><input type="text" id="animacaoEsquerdaGFPrefixo" value="idle0"><input type="text" id="animacaoDireitaGFPrefixo" value="idle0">
+    <br><br><br>
+    <p>Cor de fundo:</p>
+    <input type="color" id="corFundo" value="#F9CF51"><br><br>
+    <button onclick="baixar()">BAIXAR ARQUIVO</button>
+    <audio src="sounds/ClickDown.ogg" id="clickSound"></audio>
+    <script src="scripts/script-weekeditor.js"></script>
+</body>
+</html>
