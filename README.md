@@ -1,2 +1,19 @@
-# Cvncfs-Engine-FNF-Webkit-Tools
-Cvncfs Engine é uma Engine de Friday Night Funkin feita em HTML, CSS e JS que roda em qualquer dispositivo, desde um simples celular até o COMPUTADOR mais cabuloso.
+# Cvncfs Engine
+
+Esse site/app tem como objetivo ser uma Engine de [Friday Night Funkin](https://ninja-muffin24.itch.io/funkin)' que roda em todos os dispositivos possíveis, desde:
+
+* Celular
+* Tablet
+* Notebook
+* Computador
+
+
+
+Se você tem um **NAVEGADOR**, você pode usar essa Engine. Também tem versões para Windows.
+
+Valeu por usar! 👌
+
+
+
+Créditos: [THE FUNKIN' CREW INC.](https://github.com/FunkinCrew)
+
