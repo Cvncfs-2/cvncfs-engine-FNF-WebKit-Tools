@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'VCR OSD MONO';
+  src: url('fonts/VCR_OSD_MONO_1.001.ttf') format('truetype');
+}
+
+body {
+    font-size: 14pt;
+    font-family: VCR OSD MONO, Arial, Helvetica, sans-serif;
+    background-color: #FDE871;
+    text-align: center;
+}
+.image-Week-SVG {
+    width: 340px;
+    height: auto;
+}
+.image-version {
+    width: 50%
+}
+.img-rating {
+    width: 70%;
+}
+@media (max-width: 768px) {
+    .AlertMobile {
+        display: none
+    }
+}
+input[type="text"], input[type="number"] {
+    width: 85%; height: 40px; font: 14pt VCR OSD MONO; border-radius: 25px; padding-left: 15px; padding-top: 5px;
+}
+input[type="range"] {
+    width: 85%;
+}
+input[type="color"] {
+  /* Remove a borda padrão e o fundo cinza chato */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  
+  width: 100px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+}
+select {
+    width: 85%; height: 40px; font-size: 12pt; border-radius: 25px; padding-left: 15px; padding-top: 5px;
+}
+button {
+    font: 20pt VCR OSD MONO; padding: 30px;
+}
