@@ -8,6 +8,13 @@ e este projeto segue as regras do Semantic Versioning.
 
 Observação: o início desse SITE foi feito antes da criação desse Repositório, então a v1.0.0 e a 1.0.1 são UPLOADS da versão original.
 
+## \[v1.0.2] - 04-04-2026
+
+### Adicionado
+
+* Troca das fontes originais para VCR OSD MONO.
+* Modificação no editor de Week com barra deslizante e um seletor de cores.
+
 ## \[v1.0.1] - 31-03-2026
 
 ### Adicionado
