@@ -12,7 +12,7 @@ Observação: o início desse SITE foi feito antes da criação desse Repositór
 
 ### Adicionado
 
-* Novas fontes aos Editores. ([6a9c52c](https://github.com/Cvncfs-2/cvncfs-engine-FNF-WebKit-Tools/commit/6a9c52c26c992470d3e02b5080caedb0db82b8ec))
+* Novas fontes aos Editores.
 * Nova UI com JavaScript no Editor de Metadata.
 * Instalador para WINDOWS feito com [ElectronJS](https://ww.electronjs.org).
 
@@ -30,7 +30,7 @@ Observação: o início desse SITE foi feito antes da criação desse Repositór
 ### Adicionado
 
 * Criação do repositório.
-* Confirmação inicial. ([113679e]
+* Confirmação inicial.
 * Adicionar arquivos ("index.html" e "lista.txt") por meio de upload.
 * Criado o arquivo metadata-editor.html para entrada de metadados da música.
 * Adicionar arquivos ("lib/week-editor.html") por meio de upload.
