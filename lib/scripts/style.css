@@ -9,9 +9,11 @@ body {
     background-color: #FDE871;
     text-align: center;
 }
-.image-Week-SVG {
-    width: 340px;
-    height: auto;
+.LogoCvncfsEngine {
+    width: 100%;
+}
+.image-editor-SVG {
+    width: 85%;
 }
 .image-version {
     width: 50%
@@ -23,6 +25,9 @@ body {
     .AlertMobile {
         display: none
     }
+}
+.editores-principal {
+    font: 24pt VCR OSD MONO;
 }
 input[type="text"], input[type="number"] {
     width: 85%; height: 40px; font: 14pt VCR OSD MONO; border-radius: 25px; padding-left: 15px; padding-top: 5px;
